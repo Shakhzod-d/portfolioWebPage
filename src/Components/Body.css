@@ -1,0 +1,21 @@
+div.flex-container {
+  width: 900px;
+  height: 340px;
+  /* color: red; */
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  flex-direction: row !important;
+  border-top: 1px solid #fff;
+  margin-bottom: 20px;
+}
+
+div .flex-container > div {
+  margin: auto 0;
+}
+
+.flex-container h3 {
+  /* font-family: 'Gill Sans Extrabold', sans-serif; */
+  font-family: 'Goudy Bookletter 1911', sans-serif;
+  color: #abf7c0;
+}
